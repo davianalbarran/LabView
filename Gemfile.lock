@@ -110,6 +110,7 @@ GEM
     net-imap (0.4.10)
       date
       net-protocol
+    net-ping (2.0.8)
     net-pop (0.1.2)
       net-protocol
     net-protocol (0.2.2)
@@ -210,6 +211,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
+  net-ping
   puma (>= 5.0)
   rails (~> 7.1.3, >= 7.1.3.2)
   sprockets-rails
